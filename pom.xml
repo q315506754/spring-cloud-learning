@@ -58,6 +58,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.jiangli.spring.cloud.learning</groupId>
+                <artifactId>common</artifactId>
+                <version>${com.provider-version}</version>
+            </dependency>
         </dependencies>
 
 
