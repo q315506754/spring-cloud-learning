@@ -6,19 +6,14 @@
         <groupId>com.jiangli.spring.cloud.learning</groupId>
         <artifactId>cloud-learning-parent</artifactId>
         <version>9.9.6</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jiangli.spring.cloud.learning</groupId>
-    <artifactId>config-learning</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>config-learning-server</artifactId>
+    <packaging>jar</packaging>
     <version>${com.provider-version}</version>
-
-
-    <modules>
-        <module>config-learning-client</module>
-        <module>config-learning-server</module>
-    </modules>
 
     <properties>
     </properties>
@@ -30,20 +25,26 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
+        <!--server必备-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <!--controller-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jersey</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-jersey</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
 
 
         <dependency>

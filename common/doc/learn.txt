@@ -1,0 +1,27 @@
+https://projects.spring.io/spring-cloud/
+：简介
+一套工具，实现了分布式系统中通用的模式
+把库放到运行时classpath就能用到库功能——能迅速构建微服务应用
+[dubbo和cloud.png]
+
+：如何配置
+
+：大致功能
+声明式配置
+
+：主要项目
+
+
+：版本说明
+ BOM (Bill of Materials)
+
+
+The names are an alphabetic sequence (so you can sort them chronologically) with names of London Tube stations
+tube station-地铁站
+Angel 天使站 这个站名来源于大北方之路过去一家名为“天使”驿站，可以追溯到17世纪。
+Brixton 布里克斯顿（英国地名）
+Camden 卡姆登(英国苏格兰东南部城市)
+Dalston 多尔斯顿
+Edgware 埃奇威尔路
+Finchley 芬奇利(英国英格兰东南部城市)
+[地铁图]
