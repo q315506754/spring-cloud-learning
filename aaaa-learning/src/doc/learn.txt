@@ -1,0 +1,22 @@
+https://cloud.spring.io/spring-cloud-config/
+
+：简介
+分布式系统中的配置管理工具
+提供服务端和客户端
+核心概念为 Spring Environment
+能灵活配置
+
+
+：功能
+
+
+：配置
+client
+ Spring Boot Actuator + Spring Config Client ——> http://localhost:8888 (the default value)
+
+ server
+ <spring-cloud-config-server> + @EnableConfigServer + spring.config.name=configserver —— > serve
+  locate the configuration data： spring.cloud.config.server.git.uri
+
+
+--------------------------------------------------------------

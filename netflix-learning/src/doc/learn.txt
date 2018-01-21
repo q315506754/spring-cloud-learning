@@ -1,0 +1,52 @@
+https://cloud.spring.io/spring-cloud-netflix/
+
+：简介
+提供了几个在大型分布式架构中久经沙场的组件，
+
+
+：功能
+Service Discovery (Eureka), 服务发现   [jʊ'rikə]int. 有了！；找到了！
+ Circuit Breaker (Hystrix),熔断    豪猪
+ Intelligent Routing (Zuul)，服务网关
+ and Client Side Load Balancing (Ribbon)，客户端负载均衡， ['rɪbən]丝带
+ 声明式 REST Client
+
+JAX-RS即Java API for RESTful Web Services
+Jersey RESTful 框架是开源的RESTful框架, 实现了JAX-RS (JSR 311 & JSR 339) 规范。
+它扩展了JAX-RS 参考实现， 提供了更多的特性和工具，
+ 可以进一步地简化 RESTful service 和 client 开发。
+ 尽管相对年轻，它已经是一个产品级的 RESTful service 和 client 框架。
+
+：配置
+client
+ @EnableEurekaClient + eureka.client.serviceUrl.defaultZone ——> http://localhost:8761 (the default value )
+
+ server
+ <spring-cloud-starter-eureka-server> + @EnableEurekaServer —— > serve
+
+--------------------------------------------------------------
+eureka
+(eureka-server): http://blog.csdn.net/forezp/article/details/69696915
+
+server 界面
+http://localhost:8761/
+
+client
+http://localhost:8762/hi?name=aaa
+http://localhost:8763/hi?name=aaa
+
+ribbon
+j: http://blog.csdn.net/forezp/article/details/69788938
+restremplate-client
+http://localhost:8764/hi?name=aaa
+[ribbon-resttemplate]
+
+Feign vt. 假装；装作；捏造；想象
+j: http://blog.csdn.net/forezp/article/details/69808079
+client-client
+http://localhost:8765/hi?name=aaa
+
+Hystrix
+j: http://blog.csdn.net/forezp/article/details/69934399
+restremplate-client
+http://localhost:8766/hi?name=aaa

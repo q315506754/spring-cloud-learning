@@ -9,15 +9,15 @@ https://cloud.spring.io/spring-cloud-config/
 
 ：功能
 
-
 ：配置
 client
  Spring Boot Actuator + Spring Config Client ——> http://localhost:8888 (the default value of spring.cloud.config.uri)
+(application,label,profile)
 
  server
- <spring-cloud-config-server> + @EnableConfigServer + spring.config.name=configserver —— > serve
-  locate the configuration data： spring.cloud.config.server.git.uri
+ <spring-cloud-config-server> + @EnableConfigServer + spring.cloud.config.server.git.uri —— > serve
 
+--------------------------------------------------------------
 
 http://localhost:8081/env.json
 curl localhost:8081/env

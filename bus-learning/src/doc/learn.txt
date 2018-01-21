@@ -1,0 +1,16 @@
+https://cloud.spring.io/spring-cloud-bus/
+
+：简介
+用轻量级的消息代理连接分布式系统
+目前只实现了AMQP代理用来传输
+广播状态变化和管理指令
+AMQP，即Advanced Message Queuing Protocol,高级消息队列协议,为面向消息的中间件设计。
+
+
+
+：配置
+client
+ Spring Cloud Bus AMQP + RabbitMQ + spring.rabbitmq.addresses ——> localhost:5672 (the default value)
+
+
+--------------------------------------------------------------
