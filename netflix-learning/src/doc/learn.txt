@@ -43,10 +43,32 @@ http://localhost:8764/hi?name=aaa
 
 Feign vt. 假装；装作；捏造；想象
 j: http://blog.csdn.net/forezp/article/details/69808079
-client-client
+feign-client
 http://localhost:8765/hi?name=aaa
 
 Hystrix
 j: http://blog.csdn.net/forezp/article/details/69934399
 restremplate-client
 http://localhost:8766/hi?name=aaa
+feign-client
+http://localhost:8767/hi?name=aaa
+
+Hystrix Dashboard
+http://localhost:8766/hystrix
+http://localhost:8766/hystrix.stream
+
+http://localhost:8767/hystrix
+http://localhost:8767/hystrix.stream
+
+
+zuul
+j: http://blog.csdn.net/forezp/article/details/69939114
+http://localhost:8768/api-a/hi?name=aaa
+http://localhost:8768/api-b/hi?name=aaa
+[微服务系统.png]
+
+
+
+
+
+

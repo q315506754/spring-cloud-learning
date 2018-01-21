@@ -10,14 +10,15 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jiangli.spring.cloud.learning</groupId>
-    <artifactId>aaaa-learning</artifactId>
+    <artifactId>bus-learning</artifactId>
     <packaging>pom</packaging>
     <version>${com.provider-version}</version>
 
 
     <modules>
-        <module>config-learning-client</module>
-        <module>config-learning-server</module>
+        <module>config-learning-client-bus-cluster1</module>
+        <module>config-learning-client-bus-cluster2</module>
+        <module>config-learning-client-bus-cluster3</module>
     </modules>
 
     <properties>

@@ -13,7 +13,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name){
-        return helloService.hiService(name);
+        return "eureka-learning-client-ribbon-resttemplate:"+helloService.hiService(name);
     }
 
 

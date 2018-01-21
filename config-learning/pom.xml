@@ -17,7 +17,11 @@
 
     <modules>
         <module>config-learning-client</module>
+        <module>config-learning-client-cluster1</module>
+        <module>config-learning-client-cluster2</module>
         <module>config-learning-server</module>
+        <module>config-learning-server-cluster1</module>
+        <module>config-learning-server-cluster2</module>
     </modules>
 
     <properties>

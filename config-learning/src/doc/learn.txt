@@ -32,3 +32,16 @@ The HTTP service has resources in the form:
 /{label}/{application}-{profile}.yml
 /{application}-{profile}.properties
 /{label}/{application}-{profile}.properties
+
+
+config
+[config.png]
+
+config-cluster
+[config-cluster.png]
+curl localhost:8801/configLearning/pro/master
+curl localhost:8802/configLearning/pro/master
+http://localhost:8811/
+http://localhost:8812/
+ bootstrap.properties和application.properties
+

@@ -14,3 +14,17 @@ client
 
 
 --------------------------------------------------------------
+
+erlang
+http://www.cnerlang.com/resource
+http://www.erlang.org/downloads
+
+rabbitMQ
+http://www.rabbitmq.com/download.html
+
+client-bus
+http://localhost:8815/
+http://localhost:8816/
+http://localhost:8817/
+@RefreshScope
+curl -X POST http://localhost:8815/bus/refresh

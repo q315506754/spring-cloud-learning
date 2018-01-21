@@ -16,6 +16,7 @@
 
     <modules>
         <module>common</module>
+        <module>bus-learning</module>
         <module>config-learning</module>
         <module>netflix-learning</module>
     </modules>
