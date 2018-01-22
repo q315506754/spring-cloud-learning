@@ -1,0 +1,47 @@
+https://cloud.spring.io/spring-cloud-sleuth/
+
+sleuth sluθ
+n. 侦探；警犬
+vi. 做侦探；侦查
+
+：简介
+分布式链路跟踪工具
+大部分借鉴了 Dapper, Zipkin and HTrace
+
+dapper  ['dæpɚ] Google生产环境下的分布式跟踪系统
+adj. 短小精悍的；衣冠楚楚的；整洁的；整齐的
+n. (Dapper)人名；(英)达珀；(意)达珀尔；(德)达佩尔
+
+Zipkin
+
+HTrace
+Apache HTrace是Cloudera开源出来的一个分布式系统跟踪框架，支持HDFS和HBase等系统。
+Cloudera：公司，以Hadoop产品著名
+
+：功能
+把trace and span加到Slf4J MDC
+    MDC(Mapped Diagnostic Context,映射调试上下文)是 log4j 和 logback 提供的一种方便在多线程条件下记录日志的功能。
+spans形成DAG
+    DAG：有向无环图为 ( Directed Acyclic Graph)
+        Acyclic[e'saɪklɪk] adj. 非循环的；[物] 非周期的
+        cyclic  ['saɪklɪk] adj. 环的；循环的；周期的
+通过http收集兼容Zipkin的trace记录
+使用spring.zipkin.baseUrl可配置Zipkin收集服务地址（default localhost：9411）
+
+：配置
+client
+ Spring Boot Actuator + Spring Config Client ——> http://localhost:8888 (the default value)
+
+ server
+ zipkin-server + zipkin-autoconfigure-ui + @EnableZipkinServer  —— > serve
+
+--------------------------------------------------------------
+服务端 网页
+localhost:9411
+
+clients
+9421 9422 9423
+1(a,d) 2(b,f) 3(c,e)
+a(1)->b(2)->c(3)->d(1)->ec(3)->f(2)
+
+localhost:9421/a

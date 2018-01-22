@@ -19,6 +19,7 @@
         <module>bus-learning</module>
         <module>config-learning</module>
         <module>netflix-learning</module>
+        <module>sleuth-learning</module>
     </modules>
 
     <repositories>
