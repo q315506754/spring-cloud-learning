@@ -68,6 +68,17 @@ http://localhost:8768/api-b/hi?name=aaa
 [微服务系统.png]
 
 
+eureka cluster
+http://localhost:8751/
+
+
+turbine
+http://localhost:8759/turbine.stream
+
+restremplate-client
+http://localhost:8766/hi?name=aaa
+feign-client
+http://localhost:8767/hi?name=aaa
 
 
 

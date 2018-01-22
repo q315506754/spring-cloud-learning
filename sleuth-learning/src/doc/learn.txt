@@ -5,6 +5,7 @@ n. 侦探；警犬
 vi. 做侦探；侦查
 
 ：简介
+[链路跟踪.png]
 分布式链路跟踪工具
 大部分借鉴了 Dapper, Zipkin and HTrace
 
@@ -13,6 +14,7 @@ adj. 短小精悍的；衣冠楚楚的；整洁的；整齐的
 n. (Dapper)人名；(英)达珀；(意)达珀尔；(德)达佩尔
 
 Zipkin
+[zipkin概念图.png]
 
 HTrace
 Apache HTrace是Cloudera开源出来的一个分布式系统跟踪框架，支持HDFS和HBase等系统。

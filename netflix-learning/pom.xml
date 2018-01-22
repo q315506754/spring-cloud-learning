@@ -22,7 +22,13 @@
         <module>eureka-learning-client-ribbon-feign-hystrix</module>
         <module>eureka-learning-client-ribbon-resttemplate</module>
         <module>eureka-learning-client-ribbon-resttemplate-hystrix</module>
+        <module>eureka-learning-hystrix-turbine</module>
         <module>eureka-learning-server</module>
+        <module>eureka-learning-server-cluster1</module>
+        <module>eureka-learning-server-cluster2</module>
+        <module>eureka-learning-server-cluster3</module>
+        <module>eureka-learning-server-cluster-client1</module>
+        <module>eureka-learning-server-cluster-client2</module>
         <module>zuul-learning</module>
         <module>JAX-RS</module>
         <module>REST</module>
