@@ -21,6 +21,7 @@
         <module>netflix-learning</module>
         <module>sleuth-learning</module>
         <module>stream-learning</module>
+        <module>task-learning</module>
     </modules>
 
     <repositories>

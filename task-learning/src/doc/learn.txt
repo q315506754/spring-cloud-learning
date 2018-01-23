@@ -1,10 +1,8 @@
 https://cloud.spring.io/spring-cloud-stream/
 
 ：简介
-消息驱动的微服务的框架
-能够配置出流处理应用
-@EnableBinding 连接消息代理
-@StreamListener 接收流处理事件
+运行短周期的微服务
+只要加上@EnableTask
 
 
 ：配置

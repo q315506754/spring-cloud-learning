@@ -22,6 +22,9 @@ http://www.erlang.org/downloads
 rabbitMQ
 http://www.rabbitmq.com/download.html
 http://127.0.0.1:15672/#/exchanges
+"C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.2\sbin\rabbitmq-plugins" enable rabbitmq_management
+"C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.2\sbin\rabbitmq-service" stop
+"C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.2\sbin\rabbitmq-service" start
 
 client-bus
 http://localhost:8815/

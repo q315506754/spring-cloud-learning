@@ -1,4 +1,4 @@
-package com.jiangli.spring.cloud.learning.stream;
+package com.jiangli.spring.cloud.learning.stream.integration;
 
 import org.springframework.stereotype.Component;
 
