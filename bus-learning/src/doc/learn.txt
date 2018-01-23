@@ -21,6 +21,7 @@ http://www.erlang.org/downloads
 
 rabbitMQ
 http://www.rabbitmq.com/download.html
+http://127.0.0.1:15672/#/exchanges
 
 client-bus
 http://localhost:8815/

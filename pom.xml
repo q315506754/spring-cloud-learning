@@ -20,6 +20,7 @@
         <module>config-learning</module>
         <module>netflix-learning</module>
         <module>sleuth-learning</module>
+        <module>stream-learning</module>
     </modules>
 
     <repositories>

@@ -1,0 +1,14 @@
+https://cloud.spring.io/spring-cloud-stream/
+
+：简介
+消息驱动的微服务的框架
+能够配置出流处理应用
+@EnableBinding 连接消息代理
+@StreamListener 接收流处理事件
+
+
+：配置
+ spring-cloud-stream + spring-cloud-starter-stream-kafka（Rabbit MQ or Apache Kafka）
+
+
+--------------------------------------------------------------
