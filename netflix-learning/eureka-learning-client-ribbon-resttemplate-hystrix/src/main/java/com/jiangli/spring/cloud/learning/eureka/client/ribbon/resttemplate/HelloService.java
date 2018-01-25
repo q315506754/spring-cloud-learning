@@ -15,8 +15,8 @@ public class HelloService {
 
     @HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name) {
-        System.out.println("invoke remote.."+(System.currentTimeMillis() - lastTs)+" ms");
-        System.out.println("failed times:"+c);
+        System.out.println("执行远程.."+(System.currentTimeMillis() - lastTs)+" ms");
+        System.out.println("失败次数:"+c);
 
         lastTs = System.currentTimeMillis();
         return restTemplate.getForObject("http://eureka-learning-client/hi?name="+name,String.class);
