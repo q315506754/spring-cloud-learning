@@ -46,6 +46,7 @@ public class ConfigClientMain {
     public EmbeddedServletContainerFactory func() {
         TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory();
         factory.setPort(8081);
+
         return factory;
     }
 }
