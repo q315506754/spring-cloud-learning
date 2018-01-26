@@ -8,6 +8,7 @@ public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
         register(MyEndpoint.class);
+        register(MyEndpoint2.class);
     }
 
 }

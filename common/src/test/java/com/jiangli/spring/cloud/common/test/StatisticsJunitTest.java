@@ -74,12 +74,30 @@ public class StatisticsJunitTest {
         N.incrementAndGet();
     }
 
+   
+    int i = 1000;
+    @RepeatFixedDuration
+    @Test
+    public void calcp() {
+       int j = i *16;
+    }
+    @RepeatFixedDuration
+    @Test
+    public void calcs() {
+       int j = i << 4;
+    }
+    
+    @Test
+    public void calce() {
+       System.out.println(1000 << 4 == 1000 *16);
+    }
+    
     @RepeatFixedDuration
     @Test
     public void xxts() {
-       System.currentTimeMillis();
+        System.currentTimeMillis();
     }
-
+    
     @RepeatFixedDuration
     @Test
     public void ndgts() {
