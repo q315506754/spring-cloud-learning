@@ -121,11 +121,12 @@ public class StatisticsJunitTest {
 //        System.out.println(yyyymmdd);
     }
 
-    @RepeatFixedTimes(value = 1000)
+    @RepeatFixedTimes(value = 100000)
     @InvokerGroup(value = AvailableGroup.FIXED_LENGTH_STRING,params = {"100","500"})
     @Test
     public void sdfft_3(String str) {
         //System.out.println(str);
+        str.toUpperCase();
     }
 
     @RepeatFixedDuration
